@@ -42,7 +42,7 @@ const PostJob = () => {
         e.preventDefault();
         try {
             setLoading(true);
-            const res = await axios.post(`https://workbuddy-mp1.onrender.com/post`, input,{
+            const res = await axios.post("https://workbuddy-mp1.onrender.com/post", input,{
                 headers:{
                     'Content-Type':'application/json'
                 },
